@@ -1,14 +1,18 @@
-.container{
+*{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(244, 248, 251);
-   
+
+}
+
+body{
+    margin: 0px;
+}
+.container{
+   padding: 0px 24px;
 }
 
 .navbar{
     display: flex;
-    justify-content:space-between;
-    background-color: rgb(246, 242, 242);
-   
+    justify-content:space-between;   
 }
 .navbar-links{
     list-style: none;
@@ -124,6 +128,3 @@
 .search{
     font-size: 20px;
 }
-
-
-
